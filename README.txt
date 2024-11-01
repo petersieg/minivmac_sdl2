@@ -1,3 +1,6 @@
+For msys2/mingw64 needed switch in linking -Wl,--allow-multiple-definition is required to build exe. Use make -f Makefile.mingw64
+
+
 MnvM_bld: README
 Paul C. Pratt
 www.gryphel.com
