@@ -30,7 +30,8 @@ What is MYSYS2?
 MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.
 
 What is SDL2?
-Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. It is used by video playback software, emulators, and popular games including Valve's award winning catalog and many Humble Bundle games. 
+Simple DirectMedia Layer is a cross-platform development library designed to provide low level access to audio, keyboard, mouse, joystick, and graphics hardware via OpenGL and Direct3D. 
+It is used by video playback software, emulators, and popular games including Valve's award winning catalog and many Humble Bundle games. 
 
 Get MSYS2:
 https://www.msys2.org/
@@ -41,6 +42,8 @@ https://libsdl.org/
 Commands used in the above video:
 pacman -Syu
 
-pacman -S git mingw-w64-x86_64-gcc mingw-w64-x86_64-toolchain mingw64/mingw-w64-x86_64-SDL2 mingw64/mingw-w64-x86_64-SDL2_mixer mingw64/mingw-w64-x86_64-SDL2_image mingw64/mingw-w64-x86_64-SDL2_ttf mingw64/mingw-w64-x86_64-SDL2_net mingw64/mingw-w64-x86_64-cmake make
+pacman -S git mingw-w64-x86_64-gcc mingw-w64-x86_64-toolchain mingw64/mingw-w64-x86_64-SDL2 mingw64/mingw-w64-x86_64-SDL2_mixer mingw64/mingw-w64-x86_64-SDL2_image 
+mingw64/mingw-w64-x86_64-SDL2_ttf mingw64/mingw-w64-x86_64-SDL2_net mingw64/mingw-w64-x86_64-cmake make
 
 gcc "name of file".c -o "executable name".exe $(pkg-config --cflags --libs sdl2)
+
