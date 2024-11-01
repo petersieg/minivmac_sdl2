@@ -1,7 +1,3 @@
-For msys2/mingw64 needed switch in linking -Wl,--allow-multiple-definition is required to build exe. Use make -f Makefile.mingw64
-See: https://www.youtube.com/watch?v=l_yjcm5dihg for setup of build environment under w11.
-
-
 MnvM_bld: README
 Paul C. Pratt
 www.gryphel.com
@@ -25,6 +21,10 @@ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 license for more details.
 
 ---
+
+For msys2/mingw64 needed switch in linking -Wl,--allow-multiple-definition is required to build exe. Use make -f Makefile.mingw64
+See: https://www.youtube.com/watch?v=l_yjcm5dihg for setup of build environment under w11.
+
 
 What is MYSYS2?
 MSYS2 is a collection of tools and libraries providing you with an easy-to-use environment for building, installing and running native Windows software.
