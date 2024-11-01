@@ -1,4 +1,5 @@
 For msys2/mingw64 needed switch in linking -Wl,--allow-multiple-definition is required to build exe. Use make -f Makefile.mingw64
+See: https://www.youtube.com/watch?v=l_yjcm5dihg for setup of build environment under w11.
 
 
 MnvM_bld: README
