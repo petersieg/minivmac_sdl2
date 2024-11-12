@@ -47,5 +47,5 @@ mingw64/mingw-w64-x86_64-SDL2_ttf mingw64/mingw-w64-x86_64-SDL2_net mingw64/ming
 
 gcc "name of file".c -o "executable name".exe $(pkg-config --cflags --libs sdl2)
 
-Please find compiled minivmac.exe including required SDL2.dll. You will need vMac.ROM and bootable disk image files.
+Please find Win11 compiled minivmac.exe including required SDL2.dll. You will need vMac.ROM and bootable disk image files.
 
