@@ -1,3 +1,21 @@
+# DMG
+
+Compiled under Big Sur.
+
+Build App from information given here: https://stackoverflow.com/questions/1596945/building-osx-app-bundle
+
+and using this tool: https://github.com/auriamg/macdylibbundler
+
+icon tool used: https://github.com/BenSouchet/png-to-icns
+
+DMG build with hdd tool from folder
+
+Runs also under Sonoma. Expected to run fom Big Sur up to ..
+
+Attention: You must supply vMac.ROM and appropiate disk1..diskN.dsk bootbale disk images, where minivmac executable is located!
+
+---
+
 MnvM_bld: README
 Paul C. Pratt
 www.gryphel.com
