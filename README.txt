@@ -1,3 +1,8 @@
+# Ctrl-Keycodes
+
+Use Ctrl-H to see available keycodes. Normally Ctrl-Q to quit the emulator. Ctrl-S for speed selection.
+
+
 # DMG
 
 Compiled under Big Sur.
